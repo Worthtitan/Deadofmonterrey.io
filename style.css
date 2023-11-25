@@ -1,0 +1,312 @@
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: absolute;
+    top: 135px;
+    right: 70px;
+}
+
+#logo {
+    width: 20%;
+    margin: 0 0 0 20px;
+    position:relative;
+    top: 5%;
+    left: 8px;
+    box-sizing: border-box;
+}
+    
+nav li {
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(114, 45, 45);
+}
+
+nav a:active {
+    color: aquamarine;
+}
+
+.equipo {
+    width: 94%;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.equipo p {
+    color: white;
+
+}
+
+.equipo li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.equipo li:hover {
+    border-color: rgb(0, 0, 0); 
+}
+
+.equipo li:active {
+    border-color: rgb(255, 255, 255);
+}
+
+.equipo h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.equipo li:hover h2 {
+    font-size: 33px;
+}
+
+#cross {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#deportiva {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#trabajo {
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
+
+#logo2 {
+    width: 22%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.copyright {
+   color: antiquewhite;
+    font-size: 16px;
+    margin: 2%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    margin: 0px auto;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    width: 900px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 30px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 30px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(97, 50, 52);
+    border: none;
+    border-radius: 10px;
+    transition: 2s all;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.enviar:hover {
+    background: rgb(116, 58, 63);
+    transform: scale(1.2);
+}
+
+table {
+    position: absolute;
+    top: 10px;
+    right: -15%;
+}
+
+thead {
+    background: black;
+    color: rgb(54, 39, 43);
+    font-weight: bold;
+}
+
+table td, table th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.banner {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 5em;
+    margin: 0 0 1em;
+    clear: left;
+    color: white;
+    
+}
+
+.principal {
+    background-color: #351d1d;
+    padding: 3em;
+    width: 94%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    font-size: larger;
+    color: white;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utencilios {
+    width: 20%;
+    float: left;
+    margin: 0 20px 20px 0;
+    box-sizing: border-box;
+}
+
+.diferenciales {
+    padding: 3em;
+}
+
+.contenido-diferenciales {
+    width: 64%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: larger;
+    color: white;
+}
+
+.items {
+    line-height: 1.8;
+}
+
+.imagen-diferenciales {
+    width: 53%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px #8a8a8a;
+    box-sizing: border-box;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+       text-align: left;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .caja, .principal, .contenido-diferenciales{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.user4 {
+    text-align: center;
+}
+
+.juego {
+    text-align: center;
+    font-size: larger;
+    color: white;
+  
+}
+
+body {
+    background-image: linear-gradient(135deg, #4d282d,#1d0e10, #3f2d2f  );
+    background-size: 500%;
+}
